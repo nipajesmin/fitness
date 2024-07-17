@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
 .inter{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -54,4 +58,92 @@ nav h3{
     border: 4px solid rgb(230, 83, 60);
     border-radius: 46px;
     background: rgb(230, 83, 60);
+}
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.header-container h3{
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+}
+.text-primary{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+.header-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    width: 60%;
+    padding-bottom: 20px;
+}
+
+.f-btn{
+    background: rgb(230, 83, 60);
+    border-radius: 42px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 0.7rem;
+    font-weight: 600;
+    width: 9.3rem;
+    height: 2rem;
+    
+}
+.s-btn{
+    background: black;
+    border-radius: 42px;
+    border: 1px white solid;
+    color: rgb(255, 255, 255);
+    font-size: 0.7rem;
+    font-weight: 600;
+    width: 9.3rem;
+    height: 2rem;
+    
+}
+.t-btn{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    padding: 10px 10px;
+    margin-left: -60px;
+    margin-top: -300px;
+}
+
+.t-btn h4{
+    color: rgb(250, 250, 249);
+    font-size: 1rem;
+    font-weight: 900;
+}
+.t-btn p{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.fr-btn{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;   
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    padding: 10px 10px;
+    margin-left: 100px;
+    margin-top: -400px;
+    /* margin-bottom: -100px; */
+}
+.fr-btn h4{
+    color: rgb(250, 250, 249);
+    font-size: 1rem;
+    font-weight: 900;
+}
+.fr-btn p{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 0.9rem;
+    font-weight: 400;
 }
