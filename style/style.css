@@ -83,9 +83,9 @@ nav h3{
     width: 60%;
     padding-bottom: 20px;
 }
-.header-image{
+/* .header-image{
     border: 2px solid red;
-}
+} */
 .image-container{
     position: relative;
 }
@@ -172,5 +172,144 @@ nav h3{
     font-size: 0.9rem;
     font-weight: 400;
 }
+/* habit section */
+main{
+    background-color: black;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 30px;
+}
 
+.habit-images{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.habit  h3{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+}
+.habit  p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+.habit-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.circle-image{
+    border: 1px solid white;
+    height: 60%;
+    width: 60%;
+    border-radius: 50%;
+}
+.h-image h4{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+}
+.h-image{
+    text-align: center;
+}
+
+
+/* smaller device */
+@media screen and (max-width:576px) {
+    header{
+        padding-left: 0;
+        padding-right: 0;
+    
+    }  
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-details{
+        flex-direction: column;
+         
+    
+    }
+    .header-section{
+        flex-direction: column;
+        
+    }
+    .header-container h3{
+        font-size: 60px;
+    }
+
+
+
+
+
+    .header-container{
+        border: 2px solid red;
+        width: 352px;
+        height: 335px;
+      
+    }
+    .header-image{
+        
+        border: 2px solid red;
+        margin: 0 auto;
+    }
+    .header-image img{
+        
+        width: 100% ;
+    }
+    .image-container{
+        width: 352px;
+        height: 588px;
+        margin: 0 auto;
+     
+    }
+
+     
+    .t-button{
+        position: absolute;
+        margin-top: -150px;
+    }
+    .fr-btn{
+        border-radius: 12px;   
+        padding: 2px 2px;
+        
+        
+    }
+    .fr-btn h4{
+        font-size: 1rem;
+    }
+    .fr-button{
+        position: absolute;
+        margin-left: 160px;
+        margin-top: -400px;
+    }
+    .nav-details{
+        display: none;
+    }
+
+
+
+    /* habit section */
+    main{
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 30px;
+    }
+
+    .habit-images{
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    .circle-image{
+        height: 65%;
+        width: 50%;
+        border-radius: 50%;
+    }
+
+
+    
+}
 
