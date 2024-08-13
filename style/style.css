@@ -419,6 +419,64 @@ input{
 }
 /* team style ended */
 
+/* review started */
+.review-container h3{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;   
+}
+.review-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;  
+}
+.review-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+    margin-left: 190px;
+    margin-right: 190px;
+    padding-bottom: 50px;
+}
+.review-container h4{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+     
+}
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+    padding-top: 50px;
+    border-radius: 50%;
+
+}
+.box{
+    text-align: center;
+    padding:2rem;
+    border:5px solid #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.3);
+    border-radius: .5rem;
+    flex:1 1 30rem;
+    background:#333;
+    margin-top: 6rem;
+}
+
+.box-container img{
+    height: 12rem;
+    width:12rem;
+    border-radius: 50%;
+    border:5px solid #fff;
+    margin-top: -8rem;
+    object-fit: cover;
+}
+
+/* review ended */
+
 /* footer started */
 footer{
     background: rgb(34, 34, 34); 
@@ -646,6 +704,29 @@ footer hr{
 }
 /* team section ended */
 
+/* review section started */
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+}
+.review-container h3{
+    font-size: 30px;
+
+}
+
+.review-container p{
+    font-size: 12px;
+}
+.review-container {
+    padding-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+
+
+/* review section ended */
 
  /* footer started */
 footer{
